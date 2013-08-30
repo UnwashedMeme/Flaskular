@@ -10,5 +10,5 @@ setup(
         'flaskular': ['static', 'templates'], 
     },
     zip_safe=False,
-    install_requires=['Flask'],
+    install_requires=['Flask', 'Flask-SqlAlchemy', 'Flask-Restless'],
 )
